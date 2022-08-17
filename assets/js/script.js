@@ -24,8 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // TODO: Add event listener and handler for flip and clear buttons
     let flipButton = document.getElementById("flipCoin")
     flipButton.addEventListener('click', function(){
-        if (Math.random() * 1 < .5)
-        {
+        if (Math.random() * 1 < .5){
             pennyImage.setAttribute('src', './assets/images/penny-tails.jpg')
             tailsCount++
             totalCount++
